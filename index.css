@@ -7,10 +7,8 @@
   display: flex;
   justify-content: flex-end;
   padding: 2%;
-  position: fixed;
-  width: 95%;
-}
 
+}
 
 @media (max-width: 600px) {
   .headercontainer {
@@ -29,6 +27,15 @@
   margin: 5%;
   padding: 5%;
 }
+
+@media (max-width: 600px){
+  .heroizquierda{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+  }
+}
+
 h3 {
   font-weight: bolder;
   color: rgb(53, 52, 52);
@@ -97,6 +104,8 @@ h2 {
   text-align: center;
 }
 
+
+
 .conocimientosdos {
   display: flex;
   flex-wrap: wrap;
@@ -120,10 +129,18 @@ h2 {
   font-size: 20px;
   font-weight: bolder;
 }
-@media (max-width: 600px) {
-  .conocimientos {
+@media (max-width: 600px){
+  .conocimientosuno{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 600px){
+  .conocimientosdos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 .cita {
@@ -357,8 +374,21 @@ button{
   width: 150px;
   border-color: white;
 }
-
-
+@media (max-width: 600px){
+  .contacto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+@media(max-width: 600px){
+  .Escribime h2{
+    margin-bottom: 30%;
+    margin-left: 32%;
+    text-align: center;
+  }
+}
 
 .footer{
   background-color: #6c63ff;
@@ -382,3 +412,12 @@ p{
   margin-right: 15px;
 }
 
+@media (max-width: 600px) {
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50%;
+  }
+}
