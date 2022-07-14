@@ -2,6 +2,11 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+.body{
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
 .headercontainer {
   background-color: #918de4;
   display: flex;
@@ -33,6 +38,8 @@
     display: flex;
     flex-wrap: wrap;
     text-align: left;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   }
 }
 
@@ -52,6 +59,9 @@ h1 {
   text-align: center;
   height: 30px;
   width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 span {
   color: white;
@@ -65,6 +75,7 @@ img {
   height: 500px;
   width: 500px;
 }
+
 a {
   text-decoration: none;
   color: rgb(53, 52, 52);
@@ -111,12 +122,12 @@ h2 {
   flex-wrap: wrap;
   justify-content: center;
 }
-.HTML5,
-.CSS3,
-.Sass,
-.JavaScrip,
-.Reac,
-.GIT {
+.html5,
+.css3,
+.sass,
+.javaScrip,
+.reac,
+.git {
   border-radius: 10px;
   width: 250px;
   height: 200px;
@@ -193,7 +204,7 @@ h2 {
   flex-wrap: wrap;
   justify-content: center;
 }
-.Porfolio{
+.porfolio{
   height: 300px;
   width: 300px;
   margin: 15px;
@@ -204,7 +215,7 @@ h2 {
 
 }
 
-.Memes{
+.memes{
   height: 300px;
   width: 300px;
   margin: 15px;
@@ -213,7 +224,7 @@ h2 {
   text-align: center;
 }
 
-.Match{
+.match{
   height: 300px;
   width: 300px;
   margin: 15px;
@@ -222,7 +233,7 @@ h2 {
   text-align: center;
 }
 
-.Gastos {
+.gastos {
   height: 300px;
   width: 300px;
   margin: 15px;
@@ -231,7 +242,7 @@ h2 {
   text-align: center;
 }
 
-.Administrador{
+.administrador{
   height: 300px;
   width: 300px;
   margin: 15px;
@@ -240,7 +251,7 @@ h2 {
   text-align: center;
 }
 
-.App {
+.app {
   height: 300px;
   width: 300px;
   margin: 15px;
@@ -249,7 +260,7 @@ h2 {
   text-align: center;
 }
 
-.Peliculas {
+.peliculas {
   height: 300px;
   width: 300px;
   margin: 15px;
@@ -278,7 +289,7 @@ h2 {
   margin-left: 3%;
 }
 
-.Icono1, .Icono2, .Icono3, .Icono4{
+.icono1, .icono2, .icono3, .icono4{
   padding: 2%;
 }
 
@@ -293,19 +304,19 @@ i{
   margin-left: 3%;
   width: 300px;
 }
-.Escribime{
+.escribime{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-.Escribime h2{
+.escribime h2{
   margin-bottom: -30%;
   text-align: left;
 }
 .nombre{
   margin-right: 20px;
 }
-.Email{
+.email{
   margin-right: 20px;
 }
 .nombreyapellido{
@@ -344,11 +355,11 @@ i{
 }
 
 
-.Mensaje{
+.mensaje{
   margin-bottom: 10px;
   margin-left: 15px;
 }
-.Mensaje input{
+.mensaje input{
   display: flex;
   flex-wrap: wrap;
   height: 150px;
@@ -362,7 +373,7 @@ i{
   color: #4741be;
 }
 
-.Button{
+.button{
   margin-left: 3%;
 }
 button{
@@ -387,6 +398,7 @@ button{
     margin-bottom: 30%;
     margin-left: 32%;
     text-align: center;
+
   }
 }
 
