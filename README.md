@@ -10,4 +10,4 @@ Es un proyecto en el que llevo trabajando varios meses, en donde les cuentos alg
 
 *Espero que lo disfruten!*
 
-Imagen ![alt text] (image.jpg)
+Imagen ![alt text](imagenreadme.jpg)
