@@ -5,9 +5,9 @@ Es un proyecto en el que llevo trabajando varios meses, en donde les cuentos alg
 **Van a poder descubrir**
 
 - algunos de mis conocimientos
-- proyectos en los que voy a estar trabajando próximamente
--parte de mi formación
+- proyectos en los que voy a estar trabajando próximamente      
+- parte de mi formación
 
-*Espero que lo disfruten!*
+*Espero que lo disfruten!* 😊
 
 Pantallazo porfolio ![alt text](imagenreadme.jpg)
