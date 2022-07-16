@@ -19,25 +19,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400&display=swap" rel="stylesheet">
-    <title>Document</title>
+      <title>Lu Martinez</title>
   </head>
   <body>
-    <div class="container">
+    <main class="container">
+
       <div class="headercontainer">
         <header>
           <nav>
             <div id="miheader">
-              <div class="header">
-                <a href="#miheader"> HOLA </a>
-                <a href="#misconocimientos">CONOCIMIENTOS</a>
-                <a href="#misproyectos">PROYECTOS </a>
-                <a href="#miscontactos">CONTACTO </a>
-              </div>
+              <section class="header">
+                <a class="hola" href="#miheader"> HOLA </a>
+                <a class="conocimientos" href="#misconocimientos">CONOCIMIENTOS</a>
+                <a class="proyectos" href="#misproyectos">PROYECTOS </a>
+                <a class="contactos" href="#miscontactos">CONTACTO </a>
+              </section>
             </div>
           </nav>
         </header>
       </div>
 
+  
       <div class="hero">
         <div class="heroizquierda">
           <h3>¡Hola! Soy</h3>
@@ -54,9 +56,11 @@
           </figure>
         </div>
       </div>
+   
 
-      <div id="misconocimientos">
-        <div class="conocimientos">
+      
+        <section class="conocimientos">
+          <div id="misconocimientos">
           <h2>Mis conocimientos</h2>
           <div class="conocimientosuno">
             <p>
@@ -92,10 +96,11 @@
               <div class="textoconocimientos">GIT</div>
             </div>
           </div>
-        </div>
-      </div>
+         </div> 
+        </section>
+    
 
-      <div class="cita">
+      <section class="cita">
         <div class="caracter">&quot;</div>
         <blackquot>
           <div class="citauno">
@@ -106,10 +111,11 @@
             <cite>Simone de Beauvoir</cite>
           </div>
         </blackquot>
-      </div>
+      </section>
 
-      <div id="misproyectos">
-        <div class="proyectos">
+    
+        <section class="proyectos">
+          <div id="misproyectos">
           <h2>Mis Proyectos</h2>
           <div class="proyectosuno">
             <p>
@@ -117,30 +123,30 @@
               Los restantes seran agregados a medida que avance
                en mi formacion como programadora!
             </p>
+        </section>
+
+        <section class="proyectoscontenedor">
+          <div class="porfolio">
+            <figure>
+              <img
+                 class="imagen"
+                 src="IMAGENES/PORFOLIO.png"
+                 alt="programadora"
+                />
+            </figure>
+            <a href="Porfolio">Porfolio</a>
           </div>
 
-          <div class="proyectoscontenedor">
-            <div class="porfolio">
-              <figure>
-                <img
-                  class="imagen"
-                  src="IMAGENES/PORFOLIO.png"
-                  alt="programadora"
+          <div class="memes">
+            <figure>
+              <img
+                 class="imagen"
+                 src="IMAGENES/GENERADORA DE MEMES.png"
+                 alt="programadora"
                 />
-              </figure>
-              <a href="Porfolio">Porfolio</a>
-            </div>
-
-            <div class="memes">
-              <figure>
-                <img
-                  class="imagen"
-                  src="IMAGENES/GENERADORA DE MEMES.png"
-                  alt="programadora"
-                />
-              </figure>
-              <a href="Memes">Generador de memes </a>
-            </div>
+            </figure>
+            <a href="Memes">Generador de memes </a>
+          </div>
 
             <div class="match">
               <figure>
@@ -194,13 +200,14 @@
             </div>
           </div>
         </div>
-      </div>
-
+        </section>
+      
+    <section>
       <div id="miscontactos">
 
         <div class="contacto">
 
-          <div class="contatame">
+          <div class="contactame">
             <h2>Contactame</h2>
   
             <div class="contactameuno">
@@ -211,23 +218,21 @@
             </div>
             <div class="icono1">
               <i class="fa-brands fa-instagram"></i>
-              <a href="https://www.instagram.com/luummartinezz/"
+              <a class="icono1" href="https://www.instagram.com/luummartinezz/"
                 >luummartinezz</a
               >
             </div>
             <div class="icono2">
               <i class="fa-brands fa-linkedin"></i>
-              <a href="linkedin">Linkedin</a>
+              <a class="icono2" href="linkedin">Linkedin</a>
             </div>
             <div class="icono3">
               <i class="fa-solid fa-envelope-open-text"></i>
-              <a href="mailto:luciamacarenamartinez@gmail.com"
-                >luciamacarenamartinez</a
-              >
+              <a class="icono3" href="mailto:luciamacarenamartinez@gmail.com">luciamacarenamartinez</a>
             </div>
             <div class="icono4">
               <i class="fa-brands fa-github-alt"></i>
-              <a href="https://github.com/lumartinezz">lumartinezz</a>
+              <a class="icono4" href="https://github.com/lumartinezz">lumartinezz</a>
             </div>
           </div>
           
@@ -238,7 +243,7 @@
               method="get"
               enctype="text/plain"
             >  
-              <div class="nombreyapellido">   
+               
                <div class="nombre">
                 <input
                   id="Nombre"
@@ -255,9 +260,8 @@
                   name="Apellido"
                   placeholder="Apellido"
                 />
-              </div>
-            </div>
-            <div class="emailytelefono">
+              </div>          
+         
               <div class="email">
                 <input
                   id="Email"
@@ -274,7 +278,7 @@
                   placeholder="Telefono"
                 />
               </div>
-            </div>
+           
               <div class="mensaje">
                 <input
                   id="Mensaje"
@@ -291,24 +295,27 @@
           </div>
         </div>
       </div>
-
-      <div class="footer">
-        <footer>
-          <div class="nav">
-            <a href="#miheader"> HOLA </a>
-            <a href="#misconocimientos">CONOCIMIENTOS</a>
-            <a href="#misproyectos">PROYECTOS </a>
-            <a href="#miscontactos">CONTACTO </a>
-          </div>
-          <div class="redes">
-            <a href="linkedin"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="mailto:luciamacarenamartinez@gmail.com"><i href="mailto:luciamacarenamartinez@gmail.com" class="fa-solid fa-envelope-open-text"></i></a>
-            <a href="https://github.com/lumartinezz"><i class="fa-brands fa-github-alt"></i></a>
-            <a href="https://www.instagram.com/luummartinezz/"><i class="fa-brands fa-instagram"></i></a>
-          </div>
-          <p>Hecho con amor por Lucia</p>
-        </footer>
-      </div>
-    </div>
-  </body>
+    </section>
+    
+    <section>
+        <div class="contenedorfooter">
+          <footer>
+            <div class="nav">
+              <a class="hola" href="#miheader"> HOLA </a>
+              <a class="conocimientos" href="#misconocimientos">CONOCIMIENTOS</a>
+              <a class="proyectos" href="#misproyectos">PROYECTOS </a>
+              <a class="contactos" href="#miscontactos">CONTACTO </a>
+            </div>
+            <div class="redes">
+              <a href="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="mailto:luciamacarenamartinez@gmail.com"><i href="mailto:luciamacarenamartinez@gmail.com" class="fa-solid fa-envelope-open-text"></i></a>
+              <a href="https://github.com/lumartinezz"><i class="fa-brands fa-github-alt"></i></a>
+              <a href="https://www.instagram.com/luummartinezz/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <p>Hecho con amor por Lucia</p>
+          </footer>
+        </div>
+      </section>
+      </main>  
+  </body> 
 </html>
