@@ -1,0 +1,20 @@
+Actualizar deployado una vez resuelto:
+
+Readme (insertar imagen) OK
+centrar boton lo que hago no anda el link OK
+color del nav cambiar!! OK
+cambiar lorem de mis proyectos!! OK
+Ver nombres de las clases OK	
+mayúsculas y minúsculas de html OK
+los botones del footer no andan (estan a la izquierda los links) OK
+comentar codigo OK
+Hover mis conocimientos/proyectos OK
+html semantico OK
+ACTUALIZAR FORMULARIO EN PROXIMA CLASE
++++++++++++++++++++++++++++++++++++++++++++++
+
+
+ver focus/ hover
+ver texto de hero que se fue para baajo
+ver texto en mis proyectos
+ver inputs de formulario das mayor ancho, elegir gama de colores en violeta, poner letra en blanco borde en color lila claro

@@ -6,17 +6,15 @@ body {
 }
 
 /******************seccion header*******************/
-.headercontainer {
+.header-container {
   background-color: #918de4;
   display: flex;
-  justify-content: flex-end;
-  flex-direction: row;
+  justify-content: flex-end;  
   padding: 2%;
 }
 
 .header {
   display: flex;
-  flex-direction: row;
 }
 
 .nav-item:hover {
@@ -32,12 +30,8 @@ body {
 /********************seccion hero*******************/
 .hero {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
 }
-.heroizquierda {
-  text-align: left;
+.hero-izquierda {
   margin: 5%;
   padding: 5%;
 }
@@ -52,28 +46,14 @@ h1 {
   color: #6c63ff;
   font-size: 50px;
 }
-.botonloquehago {
-  background-color: #6c63ff;
-  border-radius: 10px;
-  text-align: center;
-  height: 30px;
-  width: 150px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.botonloquehago:hover {
-  color: #4741be;
-  background-color: #ba68c8;
-}
+
 span {
   color: white;
 }
 
-.heroderecha {
+.hero-derecha {
   display: flex;
   align-self: center;
-  align-content: stretch;
 }
 img {
   height: 100%;
@@ -82,8 +62,6 @@ img {
 a {
   text-decoration: none;
   color: rgb(53, 52, 52);
-  text-align: center;
-  align-items: center;
   padding: 10px;
 }
 /*media queri hero*/
@@ -91,14 +69,12 @@ a {
   .hero {
     display: flex;
     flex-wrap: wrap;
-    align-content: stretch;
   }
 }
 
 /**********************seccion conocimientos********************/
-.conocimientosuno {
+.conocimientos-uno {
   display: flex;
-  justify-content: center;
   color: rgb(53, 52, 52);
   font-size: 20px;
   text-align: center;
@@ -112,17 +88,12 @@ h2 {
   font-size: 30px;
   text-align: center;
 }
-.conocimientosdos {
+.conocimientos-dos {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-.html5,
-.css3,
-.sass,
-.javaScrip,
-.reac,
-.git {
+.iconos-conocimientos {
   border-radius: 10px;
   width: 250px;
   height: 200px;
@@ -130,46 +101,25 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
   flex-direction: column;
   color: black;
   font-size: 100px;
   border-style: outset;
 }
 
-.html5:hover {
-  color: #6c63ff;
-  border-color: #6c63ff;
-}
-.css3:hover {
-  color: #6c63ff;
-  border-color: #6c63ff;
-}
-.sass:hover {
-  color: #6c63ff;
-  border-color: #6c63ff;
-}
-.javaScrip:hover {
-  color: #6c63ff;
-  border-color: #6c63ff;
-}
-.reac:hover {
-  color: #6c63ff;
-  border-color: #6c63ff;
-}
-.git:hover {
+.iconos-conocimientos:hover {
   color: #6c63ff;
   border-color: #6c63ff;
 }
 
-.textoconocimientos {
+.texto-conocimientos {
   text-align: center;
   font-size: 20px;
   font-weight: bolder;
 }
 /*media queri conocimientos*/
 @media (max-width: 600px) {
-  .conocimientosuno {
+  .conocimientos-uno {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -177,7 +127,7 @@ h2 {
 }
 
 @media (max-width: 600px) {
-  .conocimientosdos {
+  .conocimientos-dos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -191,13 +141,12 @@ h2 {
 
 .caracter {
   font-size: 100px;
-  text-align: center;
   margin-bottom: -10px;
   text-align: center;
   color: rgb(53, 52, 52);
 }
 
-.citauno {
+.cita-uno {
   font-size: 30px;
   text-align: center;
   color: whitesmoke;
@@ -207,9 +156,7 @@ h2 {
 .cite {
   text-align: center;
   font-size: 20px;
-  margin: 10px;
   padding: 30px;
-  text-align: center;
   color: rgb(53, 52, 52);
   font-weight: bold;
 }
@@ -225,7 +172,7 @@ h2 {
   }
 }
 /*************************proyectos********************************/
-.proyectosuno {
+.proyectos-uno {
   color: rgb(53, 52, 52);
   font-size: 20px;
   text-align: center;
@@ -234,74 +181,41 @@ h2 {
   margin-bottom: 5%;
 }
 
-.proyectoscontenedor {
+.proyectos-dos {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.porfolio,
-.memes,
-.match,
-.gastos,
-.administrador,
-.app,
-.peliculas {
+.proyecto-tres {
   height: 300px;
   width: 300px;
   margin: 15px;
   border-style: outset;
   border-radius: 10px;
-  text-align: center;
 }
-
-.porfolio:hover {
-  color: #6c63ff;
-  border-color: #6c63ff;
+.proyecto-tres a{
+  display: flex;
+  justify-content: center;
 }
-
-.memes:hover {
-  color: #6c63ff;
-  border-color: #6c63ff;
-}
-.match:hover {
-  color: #6c63ff;
-  border-color: #6c63ff;
-}
-
-.gastos:hover {
-  color: #6c63ff;
-  border-color: #6c63ff;
-}
-
-.administrador:hover {
-  color: #6c63ff;
-  border-color: #6c63ff;
-}
-
-.app:hover {
-  color: #6c63ff;
-  border-color: #6c63ff;
-}
-
-.peliculas:hover {
+.proyecto-tres:hover {
   color: #6c63ff;
   border-color: #6c63ff;
 }
 
 .imagen {
   margin-left: 3px;
-  width: 100%;
-  height: 100%;
+  width: 220px;
+  height: 167px;
 }
+
+
 /***************************seccion contactos**************************/
 
 .contacto {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  height: 100%;
   margin-top: 30px;
 }
 
@@ -310,26 +224,11 @@ h2 {
   margin-left: 3%;
 }
 
-.icono1,
-.icono2,
-.icono3,
-.icono4 {
+.icono {
   padding: 2%;
 }
 
-.icono1:hover {
-  color: #ba68c8;
-}
-
-.icono2:hover {
-  color: #ba68c8;
-}
-
-.icono3:hover {
-  color: #ba68c8;
-}
-
-.icono4:hover {
+.icono:hover {
   color: #ba68c8;
 }
 
@@ -337,10 +236,9 @@ i {
   color: #6c63ff;
 }
 
-.contactameuno {
+.contactame-uno {
   color: rgb(53, 52, 52);
   font-size: 20px;
-  text-align: left;
   margin-left: 3%;
   width: 300px;
 }
@@ -354,7 +252,6 @@ i {
 
 .escribime h2 {
   margin-bottom: -30%;
-  text-align: left;
   margin-right: 170px;
 }
 
@@ -373,20 +270,20 @@ i {
 
 .nombre input,
 .apellido input {
-  background-color: #ffc4ff;
+  background-color: #a491ff;
   font-size: 15px;
   border-radius: 10px;
-  height: 30px;
+  height: 40px;
   width: 200px;
   border: none;
 }
 
 .email input,
 .telefono input {
-  background-color: #ba68c8;
+  background-color: #6c63ff;
   font-size: 15px;
   border-radius: 10px;
-  height: 30px;
+  height: 40px;
   width: 200px;
   border: none;
 }
@@ -399,30 +296,44 @@ i {
 .mensaje input {
   height: 100px;
   width: 300px;
-  background-color: #a39ff1;
+  background-color: #2838cb;
   border-radius: 10px;
   font-size: 15px;
   border: none;
 }
 
 ::placeholder {
-  color: #4741be;
+  color: whitesmoke;
 }
 
-.button {
+.boton{
+  color: whitesmoke;
+  font-size: 25px;
+  background-color: #6c63ff;
+  border-radius: 25px;
+  height: 50px;
+  width: 200px;
+  border-color: white;
   margin-left: 3%;
+  display: flex;
+  justify-content: center;
 }
-
 button {
   color: whitesmoke;
   font-size: 25px;
   background-color: #6c63ff;
   border-radius: 25px;
   height: 50px;
-  width: 150px;
+  width: 200px;
   border-color: white;
+  cursor: pointer;
 }
-
+.boton:hover {
+  background-color: #ba68c8;
+}
+button:hover {
+  background-color: #ba68c8;
+}
 /*media queri contactos*/
 @media (max-width: 600px) {
   .contacto {
@@ -433,13 +344,12 @@ button {
 
 /*********************************footer***********************/
 
-.contenedorfooter {
+.contenedor-footer {
   background-color: #6c63ff;
   height: 150px;
   margin-top: 5px;
   text-align: center;
 }
-
 .redes i {
   background-color: white;
   border-radius: 60px;
@@ -448,7 +358,11 @@ button {
   margin: 10px;
   padding: 10px;
 }
-
+.redes a{
+    text-decoration: none;
+    color: rgb(53, 52, 52);
+    margin: 5px;
+}
 .footer p {
   color: rgb(53, 52, 52);
   margin-right: 15px;
