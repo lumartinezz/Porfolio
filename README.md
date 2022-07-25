@@ -10,4 +10,4 @@ Es un proyecto en el que llevo trabajando varios meses, en donde les cuentos alg
 
 *Espero que lo disfruten!* 😊
 
-Pantallazo porfolio ![alt text](imagenreadme.jpg)
+Pantallazo porfolio ![alt text](IMAGENES/imagenreadme.jpg)
