@@ -22,8 +22,8 @@ body {
 }
 
 /*media queri header*/
-@media (max-width: 600px) {
-  .headercontainer {
+@media (max-width: 480px) {
+  .header-container {
     display: none;
   }
 }
@@ -65,7 +65,13 @@ a {
   padding: 10px;
 }
 /*media queri hero*/
-@media (max-width: 600px) {
+@media (max-width: 480px) {
+  .hero {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media  (min-width: 481px) and (max-width: 900px) {
   .hero {
     display: flex;
     flex-wrap: wrap;
@@ -118,7 +124,14 @@ h2 {
   font-weight: bolder;
 }
 /*media queri conocimientos*/
-@media (max-width: 600px) {
+@media (max-width: 480px) {
+  .conocimientos-uno {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media  (min-width: 481px) and (max-width: 900px) {
   .conocimientos-uno {
     display: flex;
     flex-wrap: wrap;
@@ -126,7 +139,17 @@ h2 {
   }
 }
 
-@media (max-width: 600px) {
+
+
+@media (max-width: 480px)  {
+  .conocimientos-dos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media  (min-width: 481px) and (max-width: 900px) {
   .conocimientos-dos {
     display: flex;
     flex-wrap: wrap;
@@ -163,7 +186,16 @@ h2 {
 
 /*seccion media queri cita*/
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
+  .cita {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media  (min-width: 481px) and (max-width: 900px) {
   .cita {
     display: flex;
     flex-wrap: wrap;
@@ -339,7 +371,14 @@ button:hover {
   background-color: #ba68c8;
 }
 /*media queri contactos*/
-@media (max-width: 600px) {
+@media (max-width: 480px) {
+  .contacto {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media  (min-width: 481px) and (max-width: 900px) {
   .contacto {
     display: flex;
     flex-wrap: wrap;
@@ -374,7 +413,13 @@ button:hover {
 }
 
 /*seccion media queri footer*/
-@media (max-width: 600px) {
+@media (max-width: 480px) {
+  .nav {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media  (min-width: 481px) and (max-width: 900px)  {
   .nav {
     display: flex;
     justify-content: center;
